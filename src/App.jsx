@@ -5,6 +5,7 @@ import './App.css'
 import SimpleForm from './Components/SimpleForm/SimpleForm'
 import StateFullForm from './Components/StateFullForm/StateFullForm'
 import FormRef from './Components/FormRef/FormRef'
+import HookForm from './Components/hookForm/HookForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       <h1>Vite + React</h1>
      {/* <SimpleForm></SimpleForm> */}
      {/* <StateFullForm></StateFullForm> */}
-     <FormRef></FormRef>
+     {/* <FormRef></FormRef> */}
+     <HookForm></HookForm>
     </>
   )
 }
